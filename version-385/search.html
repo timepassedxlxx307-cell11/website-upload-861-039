@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索影片 - 国产剧集片库</title>
+  <meta name="description" content="搜索影片标题、类型、地区、年份和标签，快速找到高清剧集详情页。">
+  <meta name="keywords" content="国产视频免费在线观看·高清剧集片库与排行榜-热门国产电视剧,国产,视频,免费,在线观看,高清,影视大全">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="搜索影片 - 国产剧集片库">
+  <meta property="og:description" content="搜索影片标题、类型、地区、年份和标签，快速找到高清剧集详情页。">
+  <link rel="stylesheet" href="./assets/site.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="./index.html" aria-label="国产剧集片库首页">
+        <span class="brand-mark">▶</span>
+        <span class="brand-text">国产剧集片库</span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a href="./index.html">首页</a>
+        <a href="./catalog.html">全部片库</a>
+        <a href="./category-guochan.html">国产剧</a>
+        <a href="./category-rihan.html">日韩剧</a>
+        <a href="./category-oumei.html">欧美剧</a>
+        <a href="./rankings.html">排行榜</a>
+      </nav>
+      <form class="nav-search" action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片、类型、地区" aria-label="搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="menu-toggle" type="button" aria-label="打开菜单" data-menu-toggle>☰</button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+      <a href="./index.html">首页</a>
+      <a href="./catalog.html">全部片库</a>
+      <a href="./category-guochan.html">国产剧</a>
+      <a href="./category-rihan.html">日韩剧</a>
+      <a href="./category-oumei.html">欧美剧</a>
+      <a href="./category-qita.html">其他</a>
+      <a href="./rankings.html">排行榜</a>
+      <form action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </header>
+  <section class="page-title">
+    <div>
+      <span class="hero-label">搜索</span>
+      <h1>搜索高清影片</h1>
+      <p>输入片名、类型、年份、地区或标签，即可筛选片库中的影片。</p>
+    </div>
+  </section>
+  <main class="main-shell">
+    <div class="search-panel">
+      <form action="./search.html" method="get">
+        <input data-search-input type="search" name="q" placeholder="搜索影片、类型、地区、年份" aria-label="搜索影片">
+        <button class="search-submit" type="submit">搜索</button>
+      </form>
+    </div>
+    <p class="search-summary" data-search-summary></p>
+    <div class="movie-grid" data-search-results></div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-shell">
+      <div class="footer-brand">
+        <a class="brand footer-logo" href="./index.html">
+          <span class="brand-mark">▶</span>
+          <span class="brand-text">国产剧集片库</span>
+        </a>
+        <p>汇集国产剧集等内容，提供视频免费在线观看与在线点播服务，支持高清播放与分类筛选，便于按榜单与片库浏览。</p>
+      </div>
+      <div class="footer-links">
+        <a href="./catalog.html">全部片库</a>
+        <a href="./category-guochan.html">国产剧</a>
+        <a href="./rankings.html">排行榜</a>
+        <a href="./search.html">搜索</a>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/movie-index.js"></script>
+  <script src="./assets/site.js"></script>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</body>
+</html>
